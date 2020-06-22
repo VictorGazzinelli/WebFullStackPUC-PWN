@@ -1,6 +1,6 @@
-const prompt = require('prompt');
+import prompt = require("prompt");
 
-const schema = {
+const schema : any = {
     properties: {
         name: {
             description: 'Entre com seu nome',
@@ -35,7 +35,7 @@ const schema = {
 
 prompt.start();
 
-prompt.get(schema, function (err, result) {
+prompt.get(schema, (err, result) => {
     console.log('Nome:     \t' + result.name);
     console.log('Sobrenome:\t' + result.surname);
     console.log('Email:    \t' + result.email);
