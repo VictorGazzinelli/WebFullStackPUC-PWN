@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "productId": 1,
+            "author": "Victor Gazzinelli",
+            "comment": "Too expansive"
+        },
+        {
+            "productId": 2,
+            "author": "Victor Gazzinelli",
+            "comment": "Cool watch"
+        }
+    ]
+}
